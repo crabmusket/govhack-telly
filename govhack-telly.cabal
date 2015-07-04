@@ -20,7 +20,9 @@ executable govhack-telly
   build-depends:       base >= 4.7 && < 5,
                        bytestring,
                        cassava,
+                       containers,
                        pipes,
+                       transformers,
                        vector
   default-language:    Haskell2010
 
